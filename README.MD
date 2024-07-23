@@ -15,7 +15,7 @@
 
 # Файлы проекта
 
-- **Исходный датасет:** База объектов недвижимости `data/data.csv`
+- **Исходный датасет:** База объектов недвижимости `data/data.csv` (data.zip)
 - **Основной файл проекта:** `project.ipynb`
 - **Сериализованная модель:** `model.pkl`
 - **Значение lambda для BoxCox трансформации признака sqft_cleaned, который будет получен в процессе EDA:** `boxcox_lambda.pkl`
@@ -51,6 +51,12 @@
 # Запуск серверов
 - **Предсказательный сервер** - python .\server.py
 - **Фронт сервер** - cd .\houseprice\; python manage.py runserver
+
+# Примеры экранов WEB
+![Front Web Screenshot](https://github.com/AndrewVolkova/final_project/blob/master/screens/frontweb.png)
+![Front Web Prediction](https://github.com/AndrewVolkova/final_project/blob/master/screens/prediction.png)
+
+
 
 
 
